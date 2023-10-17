@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2 class="heading">Enter Five Subject Marks</h2>
+<div class="subject">
+    <div class="sub1">
+        <label for="marks">Hindi:</label>
+        <input id="hindi" type="number" name="" placeholder="marks">
+    </div>
+    <div class="sub1">
+        <label for="marks">English:</label>
+        <input id="english" type="number" name="" placeholder="marks">
+    </div>
+    <div class="sub1">
+        <label for="marks">Math:</label>
+        <input id="math" type="number" name="" placeholder="marks">
+    </div>
+    <div class="sub1">
+        <label for="marks">Physics:</label>
+        <input id="physics" type="number" name="" placeholder="marks">
+    </div>
+    <div class="sub1">
+        <label for="marks">Chemistry:</label>
+        <input id="chemistry" type="number" name="" placeholder="marks">
+    </div>
+    <div>
+       <button class="button" onclick="calculate()">Calculates</button>
+    </div>
+</div>
+<div class="container2">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>Maxmarks</td>
+                    <td>Markobtaint</td>
+                    <td>Percentage</td>
+                    <td>Grade</td>
+                    <td>Result</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>500</td>
+                    <td id="obtain"></td>
+                    <td id="per"></td>
+                    <td id="grade"></td>
+                    <td id="remark"></td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+     </div>
+     <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
